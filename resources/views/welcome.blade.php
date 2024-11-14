@@ -443,7 +443,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="testimonial-block-one">
                         <div class="inner-box">
                             <div class="image-box">
@@ -459,6 +458,25 @@
                                 </p>
                                 <h3> Teresiah Karanja </h3>
                                 <span class="designation"> HR Business Partner - Kenya </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                            <a href="{{url('/')}}/uploads/GAK.pdf" download>
+                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
+                            </a>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                            </div>
+                            <div class="text-box">
+                                <p>
+                                    On behalf of the Geothermal Association of Kenya, I would like to Extend our heatfelt appreciation
+                                    to The Blue Heights Events Limited for their exceptional work in organizing the kenya Geothermal
+                                    Congress in 2022 and 2024
+                                </p>
+                                <h3> Cynthia Rutto </h3>
+                                <span class="designation"> CEO - Geothermal Association of Kenya </span>
                             </div>
                         </div>
                     </div>

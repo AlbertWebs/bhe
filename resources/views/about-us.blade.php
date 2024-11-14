@@ -162,49 +162,98 @@
 <!-- cta-section end -->
 
 
-   <!-- testimonial-section -->
-   <section class="testimonial-section pt_110 pb_140">
-    <div class="pattern-layer">
-        <div class="pattern-1 float-bob-x" style="background-image: url(assets/images/shape/shape-17.png);"></div>
-    </div>
-    <div class="auto-container">
-        <div class="title-inner mb_60">
-            <div class="sec-title mb_20">
-                <span class="sub-title"># Testimonial</span>
-                <h2>What our clients are saying</h2>
+
+        <!-- testimonial-section -->
+        <section class="testimonial-section pt_110 pb_140 bg-gray">
+            <div class="pattern-layer">
+                <div class="pattern-1 float-bob-x" style="background-image: url(assets/images/shape/shape-17.png);"></div>
             </div>
-            {{-- <p>With our passion, knowledge, creative flair and inspiration, we are dedicated in helping.</p> --}}
-        </div>
-        <div class="testimonial-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-            <div class="testimonial-block-one">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><img src="{{asset('theme/assets/images/resource/testimonial-1.jpg')}}" alt=""></figure>
-                        <div class="icon-box"><i class="icon-8"></i></div>
+            <div class="auto-container">
+                <div class="title-inner mb_60">
+                    <div class="sec-title mb_20">
+                        <span class="sub-title"># Testimonial</span>
+                        <h2>What our clients are saying</h2>
                     </div>
-                    <div class="text-box">
-                        <p>Pellentesque quis scelerisque justo. Aenean mauris justo, sagittis ornare felis ut, mattis pretium neque. Vestibulum finibus eleifend tellus vel convallis. Aliquam faucibus quis lacus quis sodales. Nulla id suscipit sem.</p>
-                        <h3>Wade Warren</h3>
-                        <span class="designation">Designation</span>
+                    {{-- <p>With our passion, knowledge, creative flair and inspiration, we are dedicated in helping.</p> --}}
+                </div>
+                <div class="testimonial-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <a href="{{url('/')}}/uploads/ProExpoRecommendationLetterforBlueHeights.pdf" download>
+                                   <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
+                                </a>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                            </div>
+                            <div class="text-box">
+                                <p>We have been using their products and services in all our major and high
+                                    profile projects for the past two years and have always been completely
+                                    satisfied with their performance.! They do an excellent job, are always
+                                    punctual and offer competitive rates.
+                                    We are happy to recommend their services.</p>
+                                <h3>Sheetal More Mandavia</h3>
+                                <span class="designation">Director</span>
+                            </div>
+                        </div>
                     </div>
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                            <a href="{{url('/')}}/uploads/ESADA Recommendation20191011_14472534.pdf" download>
+                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
+                            </a>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                            </div>
+                            <div class="text-box">
+                                <p>I am pleased to write this letter to recommend the services for The Blue Heights Events LTD during the past five years our company has engaged them during "The African Dairy Conference and Exhibition" Which is undoubtlely the largest and most comprehensive Dairy sector event in Africa and Beyond</p>
+                                <h3> Pater Ngaruya </h3>
+                                <span class="designation">Executive Director</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                            <a href="{{url('/')}}/uploads/Recommendation20191011_14472534.pdf" download>
+                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
+                            </a>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                            </div>
+                            <div class="text-box">
+                                <p>
+                                    We are very confident about The Blue Heights Limited and can surely recommend their quality services.
+                                    Any assistant given on the strength of this letter will be highly appreciated
+                                </p>
+                                <h3> Teresiah Karanja </h3>
+                                <span class="designation"> HR Business Partner - Kenya </span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <div class="image-box">
+                            <a href="{{url('/')}}/uploads/GAK.pdf" download>
+                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
+                            </a>
+                                <div class="icon-box"><i class="icon-8"></i></div>
+                            </div>
+                            <div class="text-box">
+                                <p>
+                                    On behalf of the Geothermal Association of Kenya, I would like to Extend our heatfelt appreciation
+                                    to The Blue Heights Events Limited for their exceptional work in organizing the kenya Geothermal
+                                    Congress in 2022 and 2024
+                                </p>
+                                <h3> Cynthia Rutto </h3>
+                                <span class="designation"> CEO - Geothermal Association of Kenya </span>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-            <div class="testimonial-block-one">
-                <div class="inner-box">
-                    <div class="image-box">
-                        <figure class="image"><img src="{{asset('theme/assets/images/resource/testimonial-2.jpg')}}" alt=""></figure>
-                        <div class="icon-box"><i class="icon-8"></i></div>
-                    </div>
-                    <div class="text-box">
-                        <p>Pellentesque quis scelerisque justo. Aenean mauris justo, sagittis ornare felis ut, mattis pretium neque. Vestibulum finibus eleifend tellus vel convallis. Aliquam faucibus quis lacus quis sodales. Nulla id suscipit sem.</p>
-                        <h3>Floyd Miles</h3>
-                        <span class="designation">Web Designer</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- testimonial-section end -->
+        </section>
+        <!-- testimonial-section end -->
 
 @endsection
