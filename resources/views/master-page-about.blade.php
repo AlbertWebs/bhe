@@ -244,7 +244,7 @@
                         <ul class="social-links">
                             <li><a href="https://www.facebook.com/blueheightsevents"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://x.com/BlueHeightsLtd?t=OiMPYwKbx312kuNY4EG4iQ&s=08"><i class="fab fa-twitter"></i></a></li>
                             <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
