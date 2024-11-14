@@ -242,9 +242,10 @@
                         <figure class="footer-logo"><a href="{{url('/')}}"><img style="height:100px" src="{{asset('uploads/blueheightslogo.png')}}" alt=""></a></figure>
                         <div class="copyright"><p>&copy; 2024 <a style="color:#219fcf" href="{{url('/')}}">Blueheights Events Limited</a> All Rights Reserved</p></div>
                         <ul class="social-links">
-                            <li><a href="{{url('/')}}">facebook</a></li>
-                            <li><a href="{{url('/')}}">twitter</a></li>
-                            <li><a href="{{url('/')}}">linkedin</a></li>
+                            <li><a href="https://www.facebook.com/blueheightsevents"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/"><i class="fab fa-linkedin-in"></i></a></li>
                         </ul>
                     </div>
                 </div>

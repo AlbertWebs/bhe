@@ -156,9 +156,10 @@
                         <div class="menu-right-content">
                             <div class="btn-box mr_40"><a href="tel:+254 723 280 2602" class="theme-btn btn-one"><i class="fa fa-phone"></i> Get in Touch</a></div>
                             <ul class="social-links">
-                                <li><a href="{{url('/')}}"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="{{url('/')}}"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="{{url('/')}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.facebook.com/blueheightsevents"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
