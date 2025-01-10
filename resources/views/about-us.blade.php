@@ -162,98 +162,94 @@
 <!-- cta-section end -->
 
 
-
-        <!-- testimonial-section -->
-        <section class="testimonial-section pt_110 pb_140 bg-gray">
-            <div class="pattern-layer">
-                <div class="pattern-1 float-bob-x" style="background-image: url(assets/images/shape/shape-17.png);"></div>
+<section class="testimonial-section pt_110 pb_140 bg-gray">
+    <div class="pattern-layer">
+        <div class="pattern-1 float-bob-x" style="background-image: url(assets/images/shape/shape-17.png);"></div>
+    </div>
+    <div class="auto-container">
+        <div class="title-inner mb_60">
+            <div class="sec-title mb_20">
+                <span class="sub-title"># Testimonial</span>
+                <h2>What our clients are saying</h2>
             </div>
-            <div class="auto-container">
-                <div class="title-inner mb_60">
-                    <div class="sec-title mb_20">
-                        <span class="sub-title"># Testimonial</span>
-                        <h2>What our clients are saying</h2>
+            {{-- <p>With our passion, knowledge, creative flair and inspiration, we are dedicated in helping.</p> --}}
+        </div>
+        <div class="testimonial-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <div class="image-box">
+                        <a href="{{url('/')}}/uploads/proexpo.jpg">
+                           <figure class="image"><img src="{{url('/')}}/uploads/proexpo.jpg" alt=""></figure>
+                        </a>
+                        <div class="icon-box"><i class="icon-8"></i></div>
                     </div>
-                    {{-- <p>With our passion, knowledge, creative flair and inspiration, we are dedicated in helping.</p> --}}
-                </div>
-                <div class="testimonial-carousel owl-carousel owl-theme owl-dots-none nav-style-one">
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <a href="{{url('/')}}/uploads/ProExpoRecommendationLetterforBlueHeights.pdf" download>
-                                   <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
-                                </a>
-                                <div class="icon-box"><i class="icon-8"></i></div>
-                            </div>
-                            <div class="text-box">
-                                <p>We have been using their products and services in all our major and high
-                                    profile projects for the past two years and have always been completely
-                                    satisfied with their performance.! They do an excellent job, are always
-                                    punctual and offer competitive rates.
-                                    We are happy to recommend their services.</p>
-                                <h3>Sheetal More Mandavia</h3>
-                                <span class="designation">Director</span>
-                            </div>
-                        </div>
+                    <div class="text-box">
+                        <p>We have been using their products and services in all our major and high
+                            profile projects for the past two years and have always been completely
+                            satisfied with their performance.! They do an excellent job, are always
+                            punctual and offer competitive rates.
+                            We are happy to recommend their services.</p>
+                        <h3>&nbsp;</h3>
+                        <span class="designation">Pro Expo</span>
                     </div>
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                            <a href="{{url('/')}}/uploads/ESADA Recommendation20191011_14472534.pdf" download>
-                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
-                            </a>
-                                <div class="icon-box"><i class="icon-8"></i></div>
-                            </div>
-                            <div class="text-box">
-                                <p>I am pleased to write this letter to recommend the services for The Blue Heights Events LTD during the past five years our company has engaged them during "The African Dairy Conference and Exhibition" Which is undoubtlely the largest and most comprehensive Dairy sector event in Africa and Beyond</p>
-                                <h3> Pater Ngaruya </h3>
-                                <span class="designation">Executive Director</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                            <a href="{{url('/')}}/uploads/Recommendation20191011_14472534.pdf" download>
-                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
-                            </a>
-                                <div class="icon-box"><i class="icon-8"></i></div>
-                            </div>
-                            <div class="text-box">
-                                <p>
-                                    We are very confident about The Blue Heights Limited and can surely recommend their quality services.
-                                    Any assistant given on the strength of this letter will be highly appreciated
-                                </p>
-                                <h3> Teresiah Karanja </h3>
-                                <span class="designation"> HR Business Partner - Kenya </span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="testimonial-block-one">
-                        <div class="inner-box">
-                            <div class="image-box">
-                            <a href="{{url('/')}}/uploads/GAK.pdf" download>
-                                <figure class="image"><img src="{{asset('uploads/PDF_file_icon.png')}}" alt=""></figure>
-                            </a>
-                                <div class="icon-box"><i class="icon-8"></i></div>
-                            </div>
-                            <div class="text-box">
-                                <p>
-                                    On behalf of the Geothermal Association of Kenya, I would like to Extend our heatfelt appreciation
-                                    to The Blue Heights Events Limited for their exceptional work in organizing the kenya Geothermal
-                                    Congress in 2022 and 2024
-                                </p>
-                                <h3> Cynthia Rutto </h3>
-                                <span class="designation"> CEO - Geothermal Association of Kenya </span>
-                            </div>
-                        </div>
-                    </div>
-
                 </div>
             </div>
-        </section>
-        <!-- testimonial-section end -->
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <div class="image-box">
+                    <a href="{{url('/')}}/uploads/esada.jpg">
+                        <figure class="image"><img src="{{url('/')}}/uploads/esada.jpg" alt=""></figure>
+                    </a>
+                        <div class="icon-box"><i class="icon-8"></i></div>
+                    </div>
+                    <div class="text-box">
+                        <p>I am pleased to write this letter to recommend the services for The Blue Heights Events LTD during the past five years our company has engaged them during "The African Dairy Conference and Exhibition" Which is undoubtlely the largest and most comprehensive Dairy sector event in Africa and Beyond</p>
+                        <h3> &nbsp; </h3>
+                        <span class="designation">Eastern Southern African Dairy Association</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <div class="image-box">
+                    <a href="{{url('/')}}/uploads/gak.jpg" >
+                        <figure class="image"><img src="{{asset('uploads/gak.jpg')}}" alt=""></figure>
+                    </a>
+                        <div class="icon-box"><i class="icon-8"></i></div>
+                    </div>
+                    <div class="text-box">
+                        <p>
+                            On behalf of the Geothermal Association of Kenya, I would like to Extend our heatfelt appreciation
+                            to The Blue Heights Events Limited for their exceptional work in organizing the kenya Geothermal
+                            Congress in 2022 and 2024
+                        </p>
+                        <h3> &nbsp;</h3>
+                        <span class="designation">  Geothermal Association of Kenya </span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-block-one">
+                <div class="inner-box">
+                    <div class="image-box">
+                    <a href="{{url('/')}}/uploads/prd-logo.jpg" >
+                        <figure class="image"><img src="{{url('/')}}/uploads/prd-logo.jpg" alt=""></figure>
+                    </a>
+                        <div class="icon-box"><i class="icon-8"></i></div>
+                    </div>
+                    <div class="text-box">
+                        <p>
+                            PRD Rigs Kenya Limited is extremely satisfied with the outstanding services provided by Blue Heights Events. From the planning phase to the flawless execution of our corporate events, their professionalism and attention to detail were evident throughout.
+                        </p>
+                        <h3> &nbsp; </h3>
+                        <span class="designation">
+                            Prd Rigs Kenya Ltd </span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 @endsection
