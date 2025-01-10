@@ -148,7 +148,7 @@
 
                                         </li>
                                         <li><a href="#services">Services</a></li>
-                                        <li><a href="#contact">Contact Us</a></li>
+                                        <li><a href="{{url('/')}}/contact-us">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </nav>
@@ -156,9 +156,10 @@
                         <div class="menu-right-content">
                             <div class="btn-box mr_40"><a href="tel:+254 723 280 2602" class="theme-btn btn-one"><i class="fa fa-phone"></i> Get in Touch</a></div>
                             <ul class="social-links">
-                                <li><a href="{{url('/')}}"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="{{url('/')}}"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="{{url('/')}}"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.facebook.com/blueheightsevents"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -488,94 +489,7 @@
         <!-- testimonial-section end -->
 
 
-        {{-- <!-- cta-section -->
-        <section class="cta-section centred pt_140 pb_140">
-            <div class="bg-layer parallax-bg" data-parallax='{"y": 100}' style="background-image: url('{{('theme/assets/images/background/cta-bg.jpg')}}');"></div>
-            <div class="pattern-layer">
-                <div class="pattern-1" style="background-image: url(assets/images/shape/shape-35.png);"></div>
-                <div class="pattern-2" style="background-image: url(assets/images/shape/shape-36.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="inner-box">
-                    <span># Bookings</span>
-                    <h2>Having an Event in the near <br>Future</h2>
-                    <a href="tel:+254 723 280 2602" class="theme-btn btn-one">Engage Us Now</a>
-                </div>
-            </div>
-        </section>
-        <!-- cta-section end --> --}}
 
-
-        {{-- <!-- news-section -->
-        <section class="news-section pt_140 pb_110">
-            <div class="pattern-layer">
-                <div class="pattern-1 rotate-me" style="background-image: url(assets/images/shape/shape-20.png);"></div>
-                <div class="pattern-2" style="background-image: url(assets/images/shape/shape-21.png);"></div>
-            </div>
-            <div class="auto-container">
-                <div class="title-inner mb_60 centred">
-                    <div class="sec-title centred mb_20">
-                        <span class="sub-title"># Blogs</span>
-                        <h2>Latest Blog & News </h2>
-                    </div>
-                    <p>Stay updated with insights, trends, and stories <br>from the world of artisans.</p>
-                </div>
-                <div class="row clearfix">
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="{{asset('theme/assets/images/news/news-1.jpg')}}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <ul class="info-list mb_15">
-                                        <li>April 25, 2024</li>
-                                        <li>|</li>
-                                        <li><a href="#">by admin</a></li>
-                                    </ul>
-                                    <h3><a href="#">This is a sample Blog/Article about services offered 1</a></h3>
-                                    <p>This is a sample Blog/Article about services offered 1</p>
-                                    <div class="link"><a href="#">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="{{asset('theme/assets/images/news/news-2.jpg')}}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <ul class="info-list mb_15">
-                                        <li>April 25, 2024</li>
-                                        <li>|</li>
-                                        <li><a href="#">by admin</a></li>
-                                    </ul>
-                                    <h3><a href="#">This is another sample Blog/Article about services offered 2</a></h3>
-                                    <p>This is another sample Blog/Article about services offered 2 This is a sample Blog/Article</p>
-                                    <div class="link"><a href="#">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                        <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                            <div class="inner-box">
-                                <figure class="image-box"><a href="#"><img src="{{asset('theme/assets/images/news/news-3.jpg')}}" alt=""></a></figure>
-                                <div class="lower-content">
-                                    <ul class="info-list mb_15">
-                                        <li>April 25, 2024</li>
-                                        <li>|</li>
-                                        <li><a href="#">by admin</a></li>
-                                    </ul>
-                                    <h3><a href="#">This is the last sample Blog/Article about services offered </a></h3>
-                                    <p>This is the last sample Blog/Article about services offered This is the last sample Blog/Article about services offered</p>
-                                    <div class="link"><a href="#">Read More</a></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- news-section end --> --}}
 
 
            <!-- clients-style-two -->

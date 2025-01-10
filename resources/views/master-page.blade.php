@@ -142,7 +142,7 @@
 
                                     </li>
                                     <li><a href="#services">Services</a></li>
-                                    <li><a href="#contact">Contact Us</a></li>
+                                    <li><a href="{{url('/')}}/contact-us">Contact Us</a></li>
                                 </ul>
                             </div>
                         </nav>

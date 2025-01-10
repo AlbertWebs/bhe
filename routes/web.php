@@ -30,7 +30,7 @@ Route::get('/our-services', function () {
 
 
 Route::get('/contact-us', function () {
-    return view('portfolio');
+    return view('contact-us');
 });
 
 Route::get('/our-services/{slung}', [App\Http\Controllers\HomeController::class, 'services'])->name('our-services');

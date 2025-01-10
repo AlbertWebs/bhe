@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
+{{--  --}}
 <meta name="title" content="Event management company in Nairobi - Blue Heights Events Limited">
 <meta name="description" content="Blue Heights Events Ltd is a premier event management company specializing in corporate events. With 6 years of experience, we provide innovative solutions from exhibition floor plans to interior decor, media coverage, and conferencing equipment, ensuring memorable and successful events.">
 <meta name="keywords" content="event management, corporate events, exhibition design, interior decor, media coverage, conferencing equipment, Blue Heights Events Ltd">
@@ -20,20 +21,18 @@
 <meta property="og:site_name" content="Blue Heights Events Ltd">
 
 <title>Event management company in Nairobi - Blue Heights Events Limited</title>
-
-<!-- Fav Icon -->
-<link rel="icon" href="{{asset('theme/assets/images/favicon.ico')}}" type="image/x-icon">
+{{--  --}}
 
 <!-- Google Fonts -->
-{{-- <link href="../css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
-<link href="../css2-1?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> --}}
+<link href="../css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="../css2-1?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 <!-- Stylesheets -->
 <link href="{{asset('theme/assets/css/font-awesome-all.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/flaticon.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/owl.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/bootstrap.css')}}" rel="stylesheet">
-{{-- <link href="{{asset('theme/assets/css/jquery.fancybox.min.css')}}" rel="stylesheet"> --}}
+<link href="{{asset('theme/assets/css/jquery.fancybox.min.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/animate.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/nice-select.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/elpath.css')}}" rel="stylesheet">
@@ -41,17 +40,8 @@
 <link href="{{asset('theme/assets/css/rtl.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/style.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/module-css/page-title.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/banner.css')}}" rel="stylesheet">
-{{-- <link href="{{asset('theme/assets/css/module-css/mission.css')}}" rel="stylesheet">--}}
-<link href="{{asset('theme/assets/css/module-css/about.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/gallery.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/clients.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/conference.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/testimonial.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/cta.css')}}" rel="stylesheet">
-<link href="{{asset('theme/assets/css/module-css/news.css')}}" rel="stylesheet">
+<link href="{{asset('theme/assets/css/module-css/contact.css')}}" rel="stylesheet">
 <link href="{{asset('theme/assets/css/responsive.css')}}" rel="stylesheet">
-
 
 </head>
 
@@ -62,8 +52,8 @@
     <div class="boxed_wrapper ltr">
 
 
-        <!-- preloader -->
-        <div class="loader-wrap">
+       <!-- preloader -->
+       <div class="loader-wrap">
             <div class="preloader">
                 <div class="preloader-close">close</div>
                 <div id="handle-preloader" class="handle-preloader">
@@ -83,7 +73,7 @@
                                 e
                             </span>
                             <span data-text-preloader=" " class="letters-loading">
-                              &nbsp;
+                            &nbsp;
                             </span>
                             <span data-text-preloader="h" class="letters-loading">
                                 H
@@ -122,8 +112,8 @@
         <!-- page-direction end -->
 
 
-    <!-- main header -->
-    <header class="main-header header-style-two">
+      <!-- main header -->
+      <header class="main-header header-style-two">
         <!-- header-lower -->
         <div class="header-lower">
             <div class="auto-container">
@@ -146,7 +136,7 @@
 
                                     </li>
 
-                                    <li class="dropdown"><a href="#">Portfolio</a>
+                                    <li class="dropdown"><a href="{{url('/')}}/our-portfolio">Portfolio</a>
 
                                     </li>
                                     <li><a href="#services">Services</a></li>
@@ -195,37 +185,127 @@
     <!-- main-header end -->
 
 
-        <!-- Mobile Menu  -->
-        <div class="mobile-menu">
-            <div class="menu-backdrop"></div>
-            <div class="close-btn"><i class="fas fa-times"></i></div>
+    <!-- Mobile Menu  -->
+    <div class="mobile-menu">
+        <div class="menu-backdrop"></div>
+        <div class="close-btn"><i class="fas fa-times"></i></div>
 
-            <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="{{asset('theme/assets/images/logo-2.png')}}" alt="" title=""></a></div>
-                <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
-                <div class="contact-info">
-                    <h4>Contact Info</h4>
-                    <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+        <nav class="menu-box">
+            <div class="nav-logo"><a href="{{url('/')}}"><img src="{{asset('theme/assets/images/menulogo.png')}}" alt="" title=""></a></div>
+            <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+            <div class="contact-info">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>Cosy Nook Aparment, Suit 8, 3rd Floor, Brookside Drive,
+                        Off Muguga green Drive.
+                    </li>
+                    <li><a href="tel:+254 723 280 2602">0723 280 260</a></li>
+                    <li><a href="mailto:pmwangi@blueheightsltd.com">pmwangi@blueheightsltd.com</a></li>
+                </ul>
+            </div>
+            <div class="social-links">
+                <ul class="clearfix">
+                    <li><a href="{{url('/')}}"><span class="fab fa-twitter"></span></a></li>
+                    <li><a href="{{url('/')}}"><span class="fab fa-facebook-square"></span></a></li>
+                    <li><a href="{{url('/')}}"><span class="fab fa-pinterest-p"></span></a></li>
+                    <li><a href="{{url('/')}}"><span class="fab fa-instagram"></span></a></li>
+                    <li><a href="{{url('/')}}"><span class="fab fa-youtube"></span></a></li>
+                </ul>
+            </div>
+        </nav>
+    </div><!-- End Mobile Menu -->
+
+
+        <!-- page-title -->
+        <section class="page-title">
+            <div class="bg-layer" style="background-image: url(assets/images/background/page-title-7.jpg);"></div>
+            <div class="pattern-layer">
+                <div class="pattern-1" style="background-image: url(assets/images/shape/shape-36.png);"></div>
+                <div class="pattern-2" style="background-image: url(assets/images/shape/shape-47.png);"></div>
+            </div>
+            <div class="auto-container">
+                <div class="content-box">
+                    <ul class="bread-crumb clearfix mb_20">
+                        <li><a href="#"># Home</a></li>
+                        <li>&nbsp;-&nbsp;</li>
+                        <li>Contact</li>
                     </ul>
+                    <h1>Contact Us</h1>
                 </div>
-                <div class="social-links">
-                    <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
-                    </ul>
+            </div>
+        </section>
+        <!-- page-title end -->
+
+
+        <!-- contact-section -->
+        <section class="contact-section pt_140 pb_140">
+            <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-49.png);"></div>
+            <div class="auto-container">
+                <div class="row clearfix">
+                    <div class="col-lg-9 col-md-12 col-sm-12 form-column">
+                        <div class="form-inner">
+                            <form method="post" action="sendemail.php" id="contact-form" class="default-form">
+                                <div class="row clearfix">
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="username" placeholder="Name*" required="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <input type="email" name="email" placeholder="Email*" required="">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="phone" required="" placeholder="Your Phone*">
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-12 form-group">
+                                        <input type="text" name="subject" required="" placeholder="Subject">
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group">
+                                        <textarea name="message" placeholder="Enter your comment here"></textarea>
+                                    </div>
+                                    <div class="col-lg-12 col-md-12 col-sm-12 form-group message-btn">
+                                        <button class="theme-btn btn-one" type="submit" name="submit-form">Send Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 col-sm-12 info-column">
+                        <div class="info-inner">
+                            <div class="single-item mb_60">
+                                <h6>Contact Our Team</h6>
+                                <ul class="info-list clearfix">
+                                    <li><i class="icon-27"></i><a href="mailto:info@blueheightsltd.com">info@blueheightsltd.com</a></li>
+                                    <li><i class="icon-28"></i><a href="tel:+254 723 280 2602">+254 723 280 2602</a></li>
+                                </ul>
+                            </div>
+                            <div class="single-item mb_60">
+                                <h6>Let's Call or Email</h6>
+                                <ul class="info-list clearfix">
+                                    <li><i class="icon-27"></i><a href="mailto:pmwangi@blueheightsltd.com">pmwangi@blueheightsltd.com</a></li>
+                                    <li><i class="icon-28"></i><a href="tel:+254 723 280 2602">(406) 555-0120</a></li>
+                                </ul>
+                            </div>
+                            <div class="single-item">
+                                <h6>Let's Call or Email </h6>
+                                <ul class="info-list clearfix">
+                                    <li><i class="icon-29"></i><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/">@BlueheightsEvents</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </nav>
-        </div><!-- End Mobile Menu -->
+            </div>
+        </section>
+        <!-- contact-section end -->
 
 
-        @yield('content')
 
+
+        <section class="google-map-section">
+            <div class="map-inner">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.419707195239!2d36.7899799!3d-1.2591332!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17b847b45ecd%3A0x41aae9ed994e225a!2sBlue%20Heights%20Events%20Limited!5e0!3m2!1sen!2ske!4v1722137315559!5m2!1sen!2ske" width="600" height="535" frameborder="0" style="border:0; width: 100%" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </div>
+        </section>
+        <!-- google-map-section end -->
 
         <!-- main-footer -->
         <footer class="main-footer style-two">
@@ -246,7 +326,6 @@
             </div>
         </footer>
         <!-- main-footer end -->
-
 
 
         <!--Scroll to top-->
@@ -276,6 +355,7 @@
     <script src="{{asset('theme/assets/js/jquery.nice-select.min.js')}}"></script>
     <script src="{{asset('theme/assets/js/parallax-scroll.js')}}"></script>
     <script src="{{asset('theme/assets/js/scrollbar.js')}}"></script>
+    <script src="{{asset('theme/assets/js/validation.js')}}"></script>
 
     <!-- main-js -->
     <script src="{{asset('theme/assets/js/script.js')}}"></script>
