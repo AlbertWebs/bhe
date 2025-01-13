@@ -274,14 +274,14 @@
                                 <h6>Contact Our Team</h6>
                                 <ul class="info-list clearfix">
                                     <li><i class="icon-27"></i><a href="mailto:info@blueheightsltd.com">info@blueheightsltd.com</a></li>
-                                    <li><i class="icon-28"></i><a href="tel:+254 723 280 2602">+254 723 280 2602</a></li>
+                                    <li><i class="icon-28"></i><a href="tel:+254 723 280 2602">+254 723 280 260</a></li>
                                 </ul>
                             </div>
                             <div class="single-item mb_60">
                                 <h6>Let's Call or Email</h6>
                                 <ul class="info-list clearfix">
                                     <li><i class="icon-27"></i><a href="mailto:pmwangi@blueheightsltd.com">pmwangi@blueheightsltd.com</a></li>
-                                    <li><i class="icon-28"></i><a href="tel:+254 723 280 2602">(406) 555-0120</a></li>
+                                    <li><i class="icon-28"></i><a href="tel:+254 720 230 250">+254 720 230 250</a></li>
                                 </ul>
                             </div>
                             <div class="single-item">
