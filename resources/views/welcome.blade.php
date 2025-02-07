@@ -496,11 +496,11 @@
 
 
            <!-- clients-style-two -->
-           <section class="pb_50">
+           <section class="pb_50" style="margin:0 auto">
             {{-- <div class="pattern-layer" style="background-image: url('{{asset('theme/assets/images/shape/shape-34.png')}}');"></div> --}}
-            <div class="auto-container" >
+            <div class="container">
                 <center>
-                    <div class="row clearfix" style="margin:5px">
+                    <div class="row clearfix" >
                         <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
                             <img class="client-logo-img" src="{{asset('theme/assets/images/united-states-agency-text-label.png')}}" alt="">
                         </div>
@@ -518,6 +518,22 @@
                         </div>
                         <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
                             <img class="client-logo-img" src="{{asset('theme/assets/images/1597603258579-removebg-preview.png')}}" alt="">
+                        </div>
+
+                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
+                            <img class="client-logo-img" src="{{asset('theme/assets/images/1116-Valser_Trading_Limited-avatar.webp')}}" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
+                            <img class="client-logo-img" src="{{asset('theme/assets/images/1736755927568.jpeg')}}" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
+                            <img class="client-logo-img" src="{{asset('theme/assets/images/aM.jpg')}}" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
+                            <img class="client-logo-img" src="{{asset('theme/assets/images/images.jpeg')}}" alt="">
+                        </div>
+                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
+                            <img class="client-logo-img" src="{{asset('theme/assets/images/organisation-india-itme-society.webp')}}" alt="">
                         </div>
                         {{-- add here --}}
 
