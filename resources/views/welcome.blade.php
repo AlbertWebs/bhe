@@ -496,10 +496,10 @@
 
 
            <!-- clients-style-two -->
-           <section class="pb_50" style="margin:0 auto">
+           <section class="pb_50 ">
             {{-- <div class="pattern-layer" style="background-image: url('{{asset('theme/assets/images/shape/shape-34.png')}}');"></div> --}}
-            <div class="container">
-                <center>
+            <div class="container clients-logo-section">
+
                     <div class="row clearfix" >
                         <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
                             <img class="client-logo-img" src="{{asset('theme/assets/images/united-states-agency-text-label.png')}}" alt="">
@@ -541,7 +541,7 @@
                             <img class="client-logo-img" src="{{asset('theme/assets/images/png-transparent-dsv-transport-logistics-cargo-business-business-blue-text-trademark-removebg-preview.png')}}" alt="">
                         </div>
                     </div>
-                </center>
+
             </div>
         </section>
         <!-- clients-style-two end -->

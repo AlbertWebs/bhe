@@ -239,6 +239,16 @@
 
 }
 
+@media only screen and (max-width: 699px){
+    .client-logo{
+        width:170px !important;
+        min-height:105px !important;
+        border:3px solid #D3D3D3;
+        /* margin:2px; */
+        margin: 2px auto;
+    }
+}
+
 
 
 

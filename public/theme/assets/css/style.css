@@ -2195,6 +2195,7 @@ button.ltr {
     min-height:105px !important;
     border:3px solid #D3D3D3;
     margin:2px;
+    /* margin: 2px auto; */
 }
 
 .client-logo-img{
@@ -2206,6 +2207,9 @@ button.ltr {
     object-fit: cover;
 }
 
+.clients-logo-section{
+
+}
 
 
 
