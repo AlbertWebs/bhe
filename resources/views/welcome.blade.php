@@ -519,9 +519,8 @@
                         <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
                             <img class="client-logo-img" src="{{asset('theme/assets/images/1597603258579-removebg-preview.png')}}" alt="">
                         </div>
-                        <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
-                            <img class="client-logo-img" src="{{asset('theme/assets/images/1541781582-97-davis-shirtliff-removebg-preview.png')}}" alt="">
-                        </div>
+                        {{-- add here --}}
+
                         <div class="col-lg-2 col-md-6 col-sm-12 client-logo">
                             <img class="client-logo-img" src="{{asset('theme/assets/images/png-transparent-dsv-transport-logistics-cargo-business-business-blue-text-trademark-removebg-preview.png')}}" alt="">
                         </div>

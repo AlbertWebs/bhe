@@ -228,23 +228,26 @@
 
 
         <!-- main-footer -->
-        <footer class="main-footer style-two">
-            <div class="bg-layer" style="background-image: url('{{asset('uploads/blueheightslogo.png')}}');"></div>
-            <div class="footer-bottom">
-                <div class="auto-container">
-                    <div class="bottom-inner">
-                        <figure class="footer-logo"><a href="{{url('/')}}"><img style="height:100px" src="{{asset('uploads/blueheightslogo.png')}}" alt=""></a></figure>
-                        <div class="copyright"><p>&copy; 2024 <a style="color:#219fcf" href="{{url('/')}}">Blueheights Events Limited</a> All Rights Reserved</p></div>
-                        <ul class="social-links">
-                            <li><a href="https://www.facebook.com/blueheightsevents"><i class="fab fa-facebook-f"></i></a></li>
-                            <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx"><i class="fab fa-instagram"></i></a></li>
-                            <li><a href="https://x.com/BlueHeightsLtd?t=OiMPYwKbx312kuNY4EG4iQ&s=08"><i class="fab fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/"><i class="fab fa-linkedin-in"></i></a></li>
-                        </ul>
-                    </div>
+       <!-- main-footer -->
+       <footer class="main-footer style-two">
+        <div class="bg-layer" style="background-image: url('{{asset('uploads/blueheightslogo.png')}}');"></div>
+        <div class="footer-bottom">
+            <div class="auto-container">
+                <div class="bottom-inner">
+                    <figure class="footer-logo"><a href="{{url('/')}}"><img style="height:100px" src="{{asset('uploads/blueheightslogo.png')}}" alt=""></a></figure>
+                    <div class="copyright"><p>&copy; {{date('Y')}} <a style="color:#219fcf" href="{{url('/')}}">Blueheights Events Limited</a> All Rights Reserved</p></div>
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/blueheightsevents">facebook</a></li>
+                        <li><a href="https://x.com/BlueHeightsLtd?t=OiMPYwKbx312kuNY4EG4iQ&s=08">twitter</a></li>
+                        <li><a href="https://www.instagram.com/blueheightsevents/profilecard/?igsh=YmVtc2w1aDdxbTIx">instagram</a></li>
+                        <li><a href="https://www.linkedin.com/company/the-blue-heights-events-ltd-kenya/">linkedin</a></li>
+
+                    </ul>
                 </div>
             </div>
-        </footer>
+        </div>
+    </footer>
+    <!-- main-footer end -->
         <!-- main-footer end -->
 
 
